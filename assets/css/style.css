@@ -10,3 +10,136 @@
     --tertiary-color: #ffa300;
     --quad-color: #00a9e0;
   }
+
+  body {
+    background-color: #041e42;
+    font-family: Helvetica, Arial, sans-serif;
+    font: var(--tertiary-color);
+  }
+
+  /* header styles */
+
+  header {
+    background-color: var(--quad-color);
+    text: var(--tertiary-color);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  header h1 {
+    font-weight: bold;
+    margin: 0;
+    font-size: 36px;
+    padding-left: 10px;
+    color: var(--tertiary-color);
+  }
+
+  header a {
+    text-decoration: none;
+    color: var(--tertiary-color);
+  }
+
+  header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+  }
+  header nav ul li a {
+    padding: 10px 15px;
+    font-size: 1.55vw;
+  }
+
+  /* about me setion styles */
+  
+  .about-me {
+    background-color: var(--secondary-color);
+
+  }
+  img.portrait {
+    height: 200px;
+    float: left;
+  }
+
+  .about-me p {
+    font: var(--tertiary-color);
+    float: right;
+  }
+
+  /* work section */
+
+  .work div {
+    height: 200px;
+    width: 400px;
+    border-radius: 15%;
+    opacity: 0.5;
+    display: flex;
+    flex: wrap;
+  }
+
+  div:hover {
+    opacity: 1;
+  }
+
+  .work-tile-main {
+    display: flex;
+    width: 80%;
+    height: auto;
+  }
+
+  .work-tile-main img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .work-tile {
+    width: 50%;
+    margin: 0 auto;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .work-tile img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  .about-me section {
+    background-color: var(--secondary-color);
+    text:var(--tertiary-color)
+  }
+
+  /* contact me section styles */
+
+  .contact-me section {
+    color: var(--quad-color);
+    font: var(--tertiary-color);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .contact-me h2 {
+    font-weight: bold;
+    margin: 0;
+    font-size: 36px;
+    padding-left: 10px;
+    color: var(--tertiary-color);
+  }
+
+  .contact-me a {
+    text-decoration: none;
+    color: var(--tertiary-color);
+  }
+
+  address {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 10px 15px;
+    font-size: 1.55vw;
+  }
