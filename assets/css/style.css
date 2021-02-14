@@ -82,19 +82,10 @@
 
   /* work section */
 
-  .work img {
-    border-radius: 15%;
-  }
-
   .work-tile div {
     height: 200px;
     width: 400px;
-    opacity: 0.5;
     margin: 15px;
-  }
-
-  div:hover {
-    opacity: 1;
   }
 
   .work-tile-main {
@@ -107,6 +98,7 @@
   .work-tile-main img {
     max-width: 100%;
     max-height: 100%;
+    opacity: 0.5;
   }
   .work-tile {
     width: 50%;
@@ -119,11 +111,16 @@
   .work-tile img {
     max-width: 100%;
     max-height: 100%;
+    opacity: 0.5;
+  }
+
+  .work-tile img:hover, .work-tile-main img:hover {
+    opacity: 1;
   }
 
   .about-me section {
     background-color: var(--secondary-color);
-    text:var(--tertiary-color)
+    color:var(--tertiary-color)
   }
 
   /* contact me section styles */
@@ -172,5 +169,6 @@
 }
 
 @media screen and (max-width: 575px) {
+  align-content: center
 
 }
