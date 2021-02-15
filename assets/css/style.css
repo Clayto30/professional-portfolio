@@ -97,24 +97,26 @@
 
   .work {
     width: 100%;
-  margin: 0 auto;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
   }
 
-  .work-tile div {
+  .work-tile {
     height: 200px;
     width: 400px;
     margin: auto;
     flex: 1;
+    margin: 0px 15px 40px 15px;
   }
 
   .work-tile-main {
     display: flex;
-    width: 80%;
+    width: 70%;
     height: auto;
     align-content: center;
+    margin-bottom: 15px;
   }
 
   .work-tile-main img {
