@@ -196,7 +196,7 @@
     justify-content: center;
   }
 
-  header nav ul li a {
+  header nav ul li a, .contact-me a, address {
     font-size: 20px;
   }
 }
