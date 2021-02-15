@@ -19,19 +19,11 @@ If your README is very long, add a table of contents to make it easy for users t
 Please click on the URL and see the site at https://clayto30.github.io/professional-portfolio/
 
 You should see the following desktop site:
-```md
+
 ![alt text](assets/images/screenshot.jpg)
 ​
 ## Usage 
 ​
-Provide instructions and examples for use. Include screenshots as needed. 
-​
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-​
-```md
-![alt text](assets/images/screenshot1.png)
-```
-
 When you load my portfolio page, you should find that it loads without problems. First, you'll notice a picture of me! Please use the navigation links to travel to the various sections inlcuding one about, another featuring images that link to my projects, and my contact information.
 
 I used two examples from class of projects I've worked on as a lesson and as a challenge. The first is the lesson, Run Buddy landing page. I built this page step by step with detailed instruction in the course material. The second is a page that I was tasked with scouting code, fixing links, and improving code. The final is a website that I have not contributed dev work to, but I am currently employed there in a customer support role. I thought it would be useful to add some content to the page.
@@ -40,9 +32,7 @@ I used two examples from class of projects I've worked on as a lesson and as a c
 
 For responsiveness, I add a feature that made the text not get too small on smaller screen resolutions. Please take a look at this screenshot which demonstrates this responsiveness:
 
-```md
 ![alt text](assets/images/screenshot2.png)
-```
 
 ## Credits
 ​
