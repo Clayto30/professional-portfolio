@@ -20,7 +20,7 @@ Please click on the URL and see the site at https://clayto30.github.io/professio
 
 You should see the following desktop site:
 
-![alt text](assets/images/screenshot.jpg)
+<img src="./assets/images/screenshot1.jpg">
 ​
 ## Usage 
 ​
@@ -32,7 +32,7 @@ I used two examples from class of projects I've worked on as a lesson and as a c
 
 For responsiveness, I add a feature that made the text not get too small on smaller screen resolutions. Please take a look at this screenshot which demonstrates this responsiveness:
 
-![alt text](assets/images/screenshot2.png)
+<img src="./assets/images/screenshot2.jpg">
 
 ## Credits
 ​
