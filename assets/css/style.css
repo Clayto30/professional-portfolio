@@ -97,10 +97,9 @@
 
   .work {
     width: 100%;
-    margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
   }
 
   .work-tile {
@@ -114,7 +113,6 @@
   .work-tile-main {
     display: flex;
     width: 70%;
-    height: auto;
     align-content: center;
     margin-bottom: 15px;
   }
@@ -192,7 +190,15 @@
   /* for smaller screens responsiveness */
 
 @media screen and (max-width: 980px) {
+  header nav ul, .contact-me a, address {
+    margin-top: 20px;
+    width: 100%;
+    justify-content: center;
+  }
 
+  header nav ul li a {
+    font-size: 20px;
+  }
 }
   
 @media screen and (max-width: 768px) {
