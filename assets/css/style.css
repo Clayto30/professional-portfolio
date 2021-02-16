@@ -97,24 +97,24 @@
 
   .work {
     width: 100%;
-  margin: 0 auto;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
   }
 
-  .work-tile div {
+  .work-tile {
     height: 200px;
     width: 400px;
     margin: auto;
     flex: 1;
+    margin: 0px 15px 40px 15px;
   }
 
   .work-tile-main {
     display: flex;
-    width: 80%;
-    height: auto;
+    width: 70%;
     align-content: center;
+    margin-bottom: 15px;
   }
 
   .work-tile-main img {
@@ -190,7 +190,15 @@
   /* for smaller screens responsiveness */
 
 @media screen and (max-width: 980px) {
+  header nav ul, .contact-me a, address {
+    margin-top: 20px;
+    width: 100%;
+    justify-content: center;
+  }
 
+  header nav ul li a, .contact-me a, address {
+    font-size: 20px;
+  }
 }
   
 @media screen and (max-width: 768px) {
