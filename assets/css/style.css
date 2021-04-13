@@ -1,8 +1,8 @@
-* {
+/* * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-  }
+  } */
 
   :root {
     --primary-color: #041e42;
@@ -21,25 +21,22 @@
 
   header {
     background-color: var(--quad-color);
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
   }
 
-  header h1 {
+  /* header h1 {
     font-weight: bold;
     margin: 0;
     font-size: 36px;
     padding-left: 10px;
     color: var(--primary-color);
-  }
+  } */
 
-  header a {
+  /* header a {
     text-decoration: none;
     color: var(--primary-color);
-  }
+  } */
 
-  header nav ul {
+  /* header nav ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -50,7 +47,7 @@
   header nav ul li a {
     padding: 10px 15px;
     font-size: 1.55vw;
-  }
+  } */
 
   .section-title {
     font-size: 48px;
@@ -64,6 +61,9 @@
 
   /* about me section styles */
   
+  #shrink-me {
+    max-height: 400px;
+  }
   .about-me {
     background-color: var(--secondary-color);
   }

@@ -11,43 +11,59 @@
 <body>
     <div class="container">
         <header>
-            <h1>
-                <a href="/">CLAYTON'S PORTFOLIO</a>
-            </h1>
-            <nav>
-                <ul>
-                    <li>
-                        <a href="#about-me">About Me</a>
-                    </li>
-                    <li>
-                        <a href="#work">Work</a>
-                    </li>
-                    <li>
-                        <a href="#contact-me">Contact Me</a>
-                    </li>
-            </nav>
+            <nav class="navbar navbar-expand-lg">
+
+                <a class="navbar-brand" href="/">CLAYTON'S PORTFOLIO</a>
+
+                <nav>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#about-me">About Me</a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#work">Work</a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#contact-me">Contact Me</a>
+                            </li>
+                </nav>
         </header>
 
         <!-- about me section -->
         <section id="about-me" class="about-me">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="media">
+                    <img class="align-self-start mr-3 img-fluid img-fluid rounded float-left" src="./assets/images/portrait.jpg" alt="Clayton">
+                    <div class="media-body">
+                        <h5 class="mt-0">Clayton Goff</h5>
+                        <h5>Web Developer</h5>
+                        <p>
+                            Clayton is a creative web-developer who has demonstrated development in coding and front-end
+                            development using html, CSS, and JSS. His latest projects are the lesson-sample Run Buddy
+                            landing page and privacy policy, as well as the independent challenge assignment of scouting
+                            and
+                            improving the code for the Horiseon landing page.
+                        </p>
+                        <p>
+                            Currently, his role is operating LiveChat and solving tickets for the Customer Support
+                            department at Warrior Made, a fitness web company. Also, he collaborates with the IT
+                            departent.
+                        </p>
+                    </div>
+                </div>
+            </div>
             <h2 class="section-title">About Me</h2>
             <div class="about-me row">
                 <div class="col-3">
-                    <img src="./assets/images/portrait.jpg" class="portrait">
+                    <img src="./assets/images/portrait.jpg" class="img-fluid rounded float-left" alt="Clayton">
+                    <!-- <img src="./assets/images/portrait.jpg" class="portrait"> -->
                 </div>
                 <div class="col-6">
                     <h3>Clayton Goff</h3>
                     <h4>Web Developer</h4>
-                    <p>
-                        Clayton is a creative web-developer who has demonstrated development in coding and front-end
-                        development using html, CSS, and JSS. His latest projects are the lesson-sample Run Buddy
-                        landing page and privacy policy, as well as the independent challenge assignment of scouting and
-                        improving the code for the Horiseon landing page.
-                    </p>
-                    <p>
-                        Currently, his role is operating LiveChat and solving tickets for the Customer Support
-                        department at Warrior Made, a fitness web company. Also, he collaborates with the IT departent.
-                    </p>
+
                 </div>
             </div>
         </section>
@@ -124,20 +140,20 @@
                     </div>
                 </a> -->
             </div>
-    </div>
-    </section>
 
-    <!-- Contact Me Section -->
-    <section id="contact-me" class="contact-me">
-        <h2 class=" section-title">Contact Me</h2>
-        <address>
-            555.5555<br />
-            <a href="mailto:cltngoff@gmail.com">cltngoff@gmail.com</a><br />
-            <a href="https://github.com/Clayto30">GitHub</a></br>
-            <a href="https://www.linkedin.com/in/clayton-goff-8545b31b2/">LinkedIn</a><br />
+        </section>
 
-        </address>
-    </section>
+        <!-- Contact Me Section -->
+        <section id="contact-me" class="contact-me">
+            <h2 class=" section-title">Contact Me</h2>
+            <address>
+                555.5555<br />
+                <a href="mailto:cltngoff@gmail.com">cltngoff@gmail.com</a><br />
+                <a href="https://github.com/Clayto30">GitHub</a></br>
+                <a href="https://www.linkedin.com/in/clayton-goff-8545b31b2/">LinkedIn</a><br />
+
+            </address>
+        </section>
     </div>
 </body>
 
